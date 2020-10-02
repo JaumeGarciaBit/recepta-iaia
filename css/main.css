@@ -4,6 +4,7 @@
     height: auto;
     margin: -5%;
     margin-bottom: 5%;
+    margin-top: -25%;
 }
 .textImage
 {
@@ -11,14 +12,16 @@
     font-size: 3em;
     color: white;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 
 }
 article
 {
-    margin: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 .articleImage
 {
@@ -26,10 +29,11 @@ article
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 300px;
 }
 ul, ol
 {
+    padding-left: 0.5em;
     list-style-type: none;
 }
 header
