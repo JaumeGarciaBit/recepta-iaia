@@ -1,0 +1,57 @@
+.headerImage
+{
+    width: 101%;
+    height: auto;
+    margin: -5%;
+    margin-bottom: 5%;
+}
+.textImage
+{
+    font-family: "sanford", monospace;
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+article
+{
+    margin: 5%;
+}
+.articleImage
+{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+ul, ol
+{
+    list-style-type: none;
+}
+header
+{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+body
+{
+    width: 800px;
+    border-style:groove;
+    border-width:5px;
+    margin: auto;
+
+    font-family: "sanford", monospace;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: -1px;
+}
+@font-face
+{
+    font-family: "sanford";
+    src: url("/Ejercicio2/fonts/Sanford-0103_demo.ttf"),
+}
